@@ -12,7 +12,7 @@ import { selectCarById } from '../../store/car.selector';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './car-detail.html',
-  
+
 })
 export class CarDetail implements OnInit {
   car$!: Observable<Car | undefined>;
